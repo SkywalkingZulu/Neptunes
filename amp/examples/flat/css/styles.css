@@ -1,11 +1,7 @@
 body{
   background:black;
 }
-Nav{
-  width: 100%; //width should be a percentage for responsiveness
-  height: 38px; //height should be px. Adjust to your liking
-  background-color: grey;//hex color code should be used
-    }
+
 div#flat-black-player-container {
   position: relative;
   max-width: 400px;
