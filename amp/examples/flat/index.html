@@ -4,35 +4,39 @@
     <title>AmplitudeJS Testing</title>
 
     <!-- Include Resource Stylesheets -->
-		<link rel="stylesheet" type="text/css" href="../resources/css/foundation.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../resources/css/foundation.min.css"/>
 
     <!-- Include font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
 
-		<!--
-			Include Resource Javascript
+        <!--
+            Include Resource Javascript
 
-			NOTE: These are for handling things outside of the scope of AmplitudeJS
-		-->
-		<script type="text/javascript" src="../resources/js/jquery.js"></script>
-		<script type="text/javascript" src="../resources/js/foundation.min.js"></script>
+            NOTE: These are for handling things outside of the scope of AmplitudeJS
+        -->
+        <script type="text/javascript" src="../resources/js/jquery.js"></script>
+        <script type="text/javascript" src="../resources/js/foundation.min.js"></script>
 
-		<!-- Include Amplitude JS -->
-		<script type="text/javascript" src="../../dist/amplitude.js"></script>
+        <!-- Include Amplitude JS -->
+        <script type="text/javascript" src="../../dist/amplitude.js"></script>
 
 
-		<!--
-			Include UX functions JS
+        <!--
+            Include UX functions JS
 
-			NOTE: These are for handling things outside of the scope of AmplitudeJS
-		-->
-		<script type="text/javascript" src="js/functions.js"></script>
+            NOTE: These are for handling things outside of the scope of AmplitudeJS
+        -->
+        <script type="text/javascript" src="js/functions.js"></script>
 
-		<!-- Include Style Sheet -->
-		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <!-- Include Style Sheet -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
   </head>
   <body>
-    <
+    <nav>
+         <a href="#">Artists</a>
+         <a href="#">Albums</a>
+         <a href="#">Tracks</a>
+         </nav>
     <div class="row">
       <div class="large-4 medium-6 small-12 large-centered medium-centered columns">
         <div id="flat-black-player-container">
@@ -287,92 +291,92 @@
     </div>
   </body>
   <script type="text/javascript">
-		Amplitude.init({
+        Amplitude.init({
       "bindings": {
         37: 'prev',
         39: 'next',
         32: 'play_pause'
       },
-			"songs": [
-				{
-					"name": "Busy_Sirens(feat theMind)",
-					"artist": "Saba",
-					"album": "Care for me",
-					"url": "Saba/01.%20Busy%20_%20Sirens%20(ft.%20theMIND).mp3",
-					"cover_art_url": "Saba/Folder.jpg"
-				},
-				{
-					"name": "Broken Girls",
-					"artist": "Saba",
-					"album": "Care For Me",
+            "songs": [
+                {
+                    "name": "Busy_Sirens(feat theMind)",
+                    "artist": "Saba",
+                    "album": "Care for me",
+                    "url": "Saba/01.%20Busy%20_%20Sirens%20(ft.%20theMIND).mp3",
+                    "cover_art_url": "Saba/Folder.jpg"
+                },
+                {
+                    "name": "Broken Girls",
+                    "artist": "Saba",
+                    "album": "Care For Me",
                     "url": "Saba/02.%20Broken%20Girls.mp3",
-				    "cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
-				},
-				{
-					"name": "Life",
-					"artist": "Saba",
-					"album": "Care For me",
-					"url": "Saba/03.%20Life.mp3",
-					"cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
-				},
-				{
-					"name": "Calligraphy",
-					"artist": "Saba",
-					"album": "Care For Me",
-					"url": "Saba/04.%20Calligraphy.mp3",
                     "cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
-				},
-				{
-					"name": "Fighter (Feat Kaina)",
-					"artist": "Saba",
-					"album": "Care For Me",
-					"url": "Saba/05.%20Fighter%20(ft.%20Kaina).mp3",
-					"cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
-				},
-				{
-					"name": "Smile",
-					"artist": "Saba",
-					"album": "Care For Me",
-					"url": "Saba/06.%20Smile.mp3",
-					"cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
-				},
-				{
-					"name": "Logout (Feat Chance The Rapper)",
-					"artist": "Saba",
-					"album": "Care For Me",
-					"url": "Saba/07.%20Logout%20(ft.%20Chance%20the%20Rapper).mp3",
-					"cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
-				},
-				{
-					"name": "Grey",
-					"artist": "Saba",
-					"album": "Care For Me",
-					"url": "Saba/08.%20Grey.mp3",
+                },
+                {
+                    "name": "Life",
+                    "artist": "Saba",
+                    "album": "Care For me",
+                    "url": "Saba/03.%20Life.mp3",
                     "cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
-				},
-				{
-					"name": "Prom_King",
-					"artist": "Saba",
-					"album": "Care For Me",
-					"url": "Saba/09.%20Prom%20_%20King.mp3",
-					"cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
-				},
-				{
-					"name": "Heaven All Around Me",
-					"artist": "Saba",
-					"album": "Care For Me",
-					"url": "Saba/10.%20Heaven%20All%20Around%20Me.mp3",
-					"cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
-				},
-				{
-					"name": "Scrrr Pull up(Prod. by Wichi 1080)",
-					"artist": "Kly",
-					"album": "Klymax",
-					"url": "file:///C:/Users/Philani/Desktop/Xpty_ltd/playlist/week1/02%20-%20Scrrr%20Pull%20Up%20(Prod.%20by%20Wichi%201080).mp3",
-					"cover_art_url": "../album-art/soon-it-will-be-cold-enough.jpg"
-				}
-			]
-		});
+                },
+                {
+                    "name": "Calligraphy",
+                    "artist": "Saba",
+                    "album": "Care For Me",
+                    "url": "Saba/04.%20Calligraphy.mp3",
+                    "cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
+                },
+                {
+                    "name": "Fighter (Feat Kaina)",
+                    "artist": "Saba",
+                    "album": "Care For Me",
+                    "url": "Saba/05.%20Fighter%20(ft.%20Kaina).mp3",
+                    "cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
+                },
+                {
+                    "name": "Smile",
+                    "artist": "Saba",
+                    "album": "Care For Me",
+                    "url": "Saba/06.%20Smile.mp3",
+                    "cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
+                },
+                {
+                    "name": "Logout (Feat Chance The Rapper)",
+                    "artist": "Saba",
+                    "album": "Care For Me",
+                    "url": "Saba/07.%20Logout%20(ft.%20Chance%20the%20Rapper).mp3",
+                    "cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
+                },
+                {
+                    "name": "Grey",
+                    "artist": "Saba",
+                    "album": "Care For Me",
+                    "url": "Saba/08.%20Grey.mp3",
+                    "cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
+                },
+                {
+                    "name": "Prom_King",
+                    "artist": "Saba",
+                    "album": "Care For Me",
+                    "url": "Saba/09.%20Prom%20_%20King.mp3",
+                    "cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
+                },
+                {
+                    "name": "Heaven All Around Me",
+                    "artist": "Saba",
+                    "album": "Care For Me",
+                    "url": "Saba/10.%20Heaven%20All%20Around%20Me.mp3",
+                    "cover_art_url": "Saba/CARE%20FOR%20ME.jpg"
+                },
+                {
+                    "name": "Scrrr Pull up(Prod. by Wichi 1080)",
+                    "artist": "Kly",
+                    "album": "Klymax",
+                    "url": "file:///C:/Users/Philani/Desktop/Xpty_ltd/playlist/week1/02%20-%20Scrrr%20Pull%20Up%20(Prod.%20by%20Wichi%201080).mp3",
+                    "cover_art_url": "../album-art/soon-it-will-be-cold-enough.jpg"
+                }
+            ]
+        });
 
-	</script>
+    </script>
 </html>
