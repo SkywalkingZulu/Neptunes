@@ -1,13 +1,8 @@
-html body #innerrim {
- margin:0;
- padding: 0;}
-body{
-  background:black;
-}
+
 
 div#flat-black-player-container {
-  position: relative;
-  max-width: 400px;
+  position: absolute;
+  max-width: 0px;
   margin: auto;
 }
 div#flat-black-player-container div#list-screen {
