@@ -1,8 +1,8 @@
 
 
 div#flat-black-player-container {
-  position: absolute;
-  max-width: 0px;
+  position: relative;
+  max-width: 400px;
   margin: auto;
 }
 div#flat-black-player-container div#list-screen {
